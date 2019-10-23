@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Viewer 选项</title>
+	<link type="text/css" href="css/options.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jscolor.js"></script>
+</head>
+
+<body>
+	<h1><a href="./gallery.html">Viewer</a></h1>
+	<br />
+	<fieldset id="backgroundcontrol">
+		<legend class="legend">背景颜色和图案设置</legend>
+		<p class="small">更改背景颜色</p>
+		<input class="jscolor {width:324, height:200, position:'bottom', borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#aaa', closable:true,closeText:'关闭'}" id="bgcolor" value="#ddffff">
+		<hr>
+		<p class="small">更改背景图案</p>
+		<select id="pattern">
+	 		<option value="">无</option>
+	 		<option value="bg.png">条纹</option>
+	 		<option value="bg2.png">方</option>
+	 		<option value="bg3.png">点</option>
+	 		<option value="bg4.png">菱形</option>
+	 		<option value="bg5.png">块</option>
+	 		<option value="bg6.png">花纹</option>
+	 		<option value="bg7.png">纸纹</option>
+		</select>
+		<br>
+		<br>
+		<div id="previewarea"></div>
+		<hr/>
+		<button id="defaultvalues">重置设置</button>
+	</fieldset>
+	<br />
+	<br />
+	<button id="save">保&nbsp;&nbsp;存</button>
+	<div id="status"></div>
+	<script src="js/options.js"></script>
+</body>
+
+</html>
