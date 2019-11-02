@@ -1,7 +1,7 @@
 一个简单的本地图片浏览工具  
 
 
-![viewPic - 截图](img/viewPic.png)  
+![viewPic - 截图](docs/img/viewPic.png)  
 
 
 - [X] 图片查看
