@@ -17,7 +17,7 @@ function changeBackgroundStyle() {
 	if (bg_pattern == "") {
 		newbackground = "#" + bg_color;
 	} else {
-		newbackground = "#" + bg_color + " url('../img/" + bg_pattern + "') repeat";
+		newbackground = "#" + bg_color + " url('./docs/img/" + bg_pattern + "') repeat";
 	}
 	$('.gallery').css('background', newbackground);
 }
@@ -70,7 +70,7 @@ var viewPic = {
 
 	load: function() {
 		this.images = [
-			["../img/640.webp","test"],
+			["./docs/img/640.webp","test"],
 		];
 		this.showNumber = 0;
 		this.total = this.images.length;

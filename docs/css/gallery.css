@@ -25,7 +25,7 @@ input::-ms-clear { display:none }
     -o-user-select:none;
     z-index:101
     font-family: Verdana, Arial, Helvetica, sans-serif;
-	background: #ff0000 url('../img/bg6.png') repeat;
+	background: #ff0000 url('./docs/img/bg6.png') repeat;
     }
 
 #overlay {
@@ -45,7 +45,7 @@ h1 {
 	text-indent:-9999px;
 	width: 255px;
 	height: 68px;
-	background: url('../img/lgvimage.png') no-repeat;
+	background: url('./docs/img/lgvimage.png') no-repeat;
 }
 
 h1 a {
@@ -191,11 +191,11 @@ input.labelauty[disabled] + label {
 }
 
 input.labelauty + label > span.labelauty-unchecked-image {
-	background-image: url( ../img/input-unchecked.png );
+	background-image: url( ./docs/img/input-unchecked.png );
 }
 
 input.labelauty + label > span.labelauty-checked-image {
-	background-image: url( ../img/input-checked.png );
+	background-image: url( ./docs/img/input-checked.png );
 }
 
 .fileInput {
@@ -263,7 +263,7 @@ input.labelauty + label > span.labelauty-checked-image {
     text-align:center;
     margin: 0px;
     padding: 0px;
-    background-image: url(../img/640.webp);
+    background-image: url(./docs/img/640.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -286,7 +286,7 @@ input.labelauty + label > span.labelauty-checked-image {
     }
 
 .gallery-ctrl-btn a{
-    background:url(../img/lr.png) no-repeat;
+    background:url(./docs/img/lr.png) no-repeat;
     height:135px;
     position:absolute;
     top:50%;
@@ -345,7 +345,7 @@ input.labelauty + label > span.labelauty-checked-image {
     }
 
 .gallery-thumb-btn a{
-    background:url(../img/lr.png) no-repeat;
+    background:url(./docs/img/lr.png) no-repeat;
     height:45px;
     position:absolute;
     width:25px
@@ -437,7 +437,7 @@ input.labelauty + label > span.labelauty-checked-image {
     }
 
 .gallery-tool-btn span{
-    background:url(../img/xz.png) no-repeat;
+    background:url(./docs/img/xz.png) no-repeat;
     float:left;
     height:50px;
     text-indent:-999px;
