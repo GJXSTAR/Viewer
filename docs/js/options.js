@@ -72,7 +72,7 @@ function update_preview() {
     if (pattern == "") {
         newbackground = "#" + color;
     } else {
-        newbackground = "#" + color + " url('img/" + pattern + "') repeat";
+        newbackground = "#" + color + " url('../img/" + pattern + "') repeat";
     }
     previewarea.style.background = newbackground;
 }
