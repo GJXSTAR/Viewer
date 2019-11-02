@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/javascript" />
+    <meta http-equiv="Content-Type" content="text/css" />
+
+    <title>Viewer</title>
+
+	<link type="text/css" media="screen" rel="stylesheet" href="./css/gallery.css" />
+    <script type='text/javascript' src='./js/jquery-1.8.3.min.js'></script>
+
+</head>
+
+<body>
+    <div class="gallery">
+
+        <div id="overlay">
+            <h1 title="单击隐藏控制面板"><a href="#">Viewer</a></h1>
+            <br />
+            <fieldset id="control">
+                <legend class="legend">控 制</legend>
+                <div class="dropzone">
+                    <br />
+                    <div class="fileInput">
+                        <span>打开目录</span>
+                        <input title="点击选择文件夹" type="file" multiple webkitdirectory id="chooseFoloder" accept="*/*" value="choose directory" name="chooseFoloder" />
+                    </div>
+                    <input type="checkbox" name="parsesubfolders" id="parsesubfolders" checked="checked" data-labelauty="子文件夹" title="搜索子文件夹" />
+                    <br />
+                </div>
+                <a class="options" href="./options.html">选项</a>
+                <br style="clear:both"/>
+            </fieldset>
+        </div>
+
+
+        <div class="gallery-img-box">
+            <div class="preview"></div>
+        </div>
+
+
+        <a tabindex="1" class="gallery-tool-btn gallery-counterclockwise-btn" title="逆时针旋转">
+            <span>逆时针旋转</span>
+        </a>
+        <a tabindex="1" class="gallery-tool-btn gallery-clockwise-btn" title="顺时针旋转">
+            <span>顺时针旋转</span>
+        </a>
+
+        <div class="gallery-ctrl-btn gallery-ctrl-pre-btn"><a></a></div>
+
+        <div class="gallery-ctrl-btn gallery-ctrl-next-btn"><a></a></div>
+
+        <div class="gallery-foot">
+            <div class="gallery-thumb">
+                <div class="gallery-thumb-btn gallery-thumb-pre-btn"><a></a></div>
+                <div class="gallery-thumb-btn gallery-thumb-next-btn"><a></a></div>
+                <div class="gallery-thumb-box">
+                    <div class="gallery-thumb-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="showtitle">
+             <p class="title"></p>
+        </div>
+
+    </div>
+
+    <script src="./js/gallery.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="./js/jquery-labelauty.js"></script>
+</body>
+</html>
+
